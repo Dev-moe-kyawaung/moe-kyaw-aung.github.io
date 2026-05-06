@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Moe Kyaw Aung | Android Developer Portfolio</title>
+
+  <meta
+    name="description"
+    content="Professional portfolio website of Moe Kyaw Aung, an Android Developer specializing in Kotlin, Java, Jetpack, Firebase, REST APIs, Room, MVVM, and modern mobile app development."
+  />
+
+  <meta
+    name="keywords"
+    content="Moe Kyaw Aung, Android Developer, Kotlin Developer, Java Developer, Firebase, Jetpack Compose, MVVM, Room, GitHub Portfolio"
+  />
+
+  <meta name="author" content="Moe Kyaw Aung" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Moe Kyaw Aung | Android Developer Portfolio" />
+  <meta property="og:description" content="Android Developer portfolio featuring Kotlin, Java, Firebase, Jetpack, REST API apps, offline-first apps, and modern Android architecture." />
+  <meta property="og:type" content="website" />
+
+  <!-- Bootstrap 5 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80">
+
+  <!-- Navbar -->
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top glass-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">
+        <span class="brand-mark">M</span>
+        Moe Kyaw Aung
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navbarMenu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#learning">Learning</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+          <li class="nav-item ms-lg-3">
+            <a
+              class="btn btn-gradient btn-sm px-4"
+              href="https://github.com/Dev-moe-kyawaung/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-github me-1"></i> GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero-section">
+    <div class="hero-bg-orb orb-one"></div>
+    <div class="hero-bg-orb orb-two"></div>
+
+    <div class="container position-relative">
+      <div class="row align-items-center min-vh-100 g-5">
+        <div class="col-lg-7">
+          <div class="hero-content">
+            <div class="status-pill mb-4">
+              <span class="status-dot"></span>
+              Available for Android projects and collaborations
+            </div>
+
+            <h1 class="display-3 fw-black mb-4">
+              Hi, I’m
+              <span class="text-gradient">Moe Kyaw Aung</span>
+            </h1>
+
+            <p class="hero-subtitle mb-4">
+              Android Developer focused on building polished, reliable, and production-ready mobile applications using
+              <strong>Kotlin</strong>, <strong>Java</strong>, <strong>Jetpack</strong>, <strong>Firebase</strong>, and modern Android architecture.
+            </p>
+
+            <div class="hero-tags mb-5">
+              <span>Kotlin</span>
+              <span>Java</span>
+              <span>Android</span>
+              <span>Firebase</span>
+              <span>MVVM</span>
+              <span>Room</span>
+              <span>REST APIs</span>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row gap-3">
+              <a href="#projects" class="btn btn-gradient btn-lg px-5">
+                <i class="bi bi-rocket-takeoff me-2"></i>
+                View Projects
+              </a>
+
+              <a
+                href="mailto:moekyawaung@sent.com"
+                class="btn btn-outline-light btn-lg px-5"
+              >
+                <i class="bi bi-envelope me-2"></i>
+                Contact Me
+              </a>
+            </div>
+
+            <div class="hero-social mt-5">
+              <a
+                href="https://github.com/Dev-moe-kyawaung/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <i class="bi bi-github"></i>
+              </a>
+
+              <a
+                href="mailto:moekyawaung@sent.com"
+                aria-label="Email"
+              >
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+
+              <a
+                href="tel:09889000889"
+                aria-label="Phone"
+              >
+                <i class="bi bi-telephone-fill"></i>
+              </a>
+
+              <a
+                href="https://en.wikipedia.org/wiki/User%3AMg_Moe_Kyaw_Aung?wprov=sfla1"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Profile"
+              >
+                <i class="bi bi-person-badge-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="profile-card mx-auto">
+            <div class="profile-glow"></div>
+
+            <div class="profile-image-wrap">
+              <!-- 
+                Important:
+                Wikipedia profile pages usually do not provide a direct image URL.
+                Replace src below with a direct image URL if available.
+                Example:
+                src="https://your-direct-image-url.jpg"
+              -->
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+                alt="Moe Kyaw Aung Profile Picture"
+                class="profile-image"
+              />
+            </div>
+
+            <h2 class="mt-4 mb-1">Moe Kyaw Aung</h2>
+            <p class="text-muted-custom mb-4">Android Developer</p>
+
+            <div class="profile-stats">
+              <div>
+                <strong>Kotlin</strong>
+                <span>Primary</span>
+              </div>
+              <div>
+                <strong>Firebase</strong>
+                <span>Cloud</span>
+              </div>
+              <div>
+                <strong>MVVM</strong>
+                <span>Architecture</span>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <a
+                href="https://github.com/Dev-moe-kyawaung/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-dark-soft w-100"
+              >
+                <i class="bi bi-github me-2"></i>
+                Visit GitHub Profile
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- About -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <div class="section-label">About Me</div>
+            <h2 class="section-title">
+              Building modern Android apps with strong architecture and great user experience.
+            </h2>
+          </div>
+
+          <div class="col-lg-7">
+            <p class="section-text">
+              I am an Android developer with a strong interest in creating useful, clean, and scalable mobile applications.
+              My development stack includes Kotlin, Java, Jetpack libraries, Firebase services, REST APIs, Room database,
+              and modern Android design principles.
+            </p>
+
+            <p class="section-text">
+              I enjoy building API-driven applications, offline-first productivity apps, Firebase-connected experiences,
+              utility tools using device features, and UI-focused demos that emphasize Material Design, accessibility,
+              animations, and dark mode support.
+            </p>
+
+            <div class="about-grid mt-4">
+              <div class="about-item">
+                <i class="bi bi-phone-fill"></i>
+                <div>
+                  <h5>Android Development</h5>
+                  <p>Kotlin, Java, Jetpack, MVVM, Room, Navigation, Material Design.</p>
+                </div>
+              </div>
+
+              <div class="about-item">
+                <i class="bi bi-cloud-check-fill"></i>
+                <div>
+                  <h5>Cloud Connected Apps</h5>
+                  <p>Firebase Auth, Firestore, Realtime Database, and Cloud Messaging.</p>
+                </div>
+              </div>
+
+              <div class="about-item">
+                <i class="bi bi-shield-lock-fill"></i>
+                <div>
+                  <h5>Security Mindset</h5>
+                  <p>Secure coding basics, cybersecurity awareness, and safer app patterns.</p>
+                </div>
+              </div>
+
+              <div class="about-item">
+                <i class="bi bi-camera-fill"></i>
+                <div>
+                  <h5>Computer Vision Interest</h5>
+                  <p>Python tooling, image processing, QR/barcode scanning, and camera-based apps.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section-padding alt-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-label mx-auto">Tech Stack</div>
+          <h2 class="section-title mx-auto">
+            Technologies I use to build reliable mobile applications.
+          </h2>
+          <p class="section-text mx-auto text-center">
+            My toolkit covers Android development, backend services, local storage, cloud integration, API communication,
+            UI/UX implementation, and continuous self-improvement.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <div class="skill-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <h4>Languages</h4>
+              <ul>
+                <li>Kotlin</li>
+                <li>Java</li>
+                <li>Python for tooling</li>
+                <li>Python for computer vision</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <div class="skill-icon">
+                <i class="bi bi-phone"></i>
+              </div>
+              <h4>Android</h4>
+              <ul>
+                <li>Jetpack ViewModel</li>
+                <li>LiveData and Flow</li>
+                <li>Navigation Component</li>
+                <li>Room Database</li>
+                <li>Jetpack Compose</li>
+                <li>Material Design 3</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <div class="skill-icon">
+                <i class="bi bi-server"></i>
+              </div>
+              <h4>Backend & Services</h4>
+              <ul>
+                <li>REST APIs</li>
+                <li>JSON</li>
+                <li>Firebase Auth</li>
+                <li>Firestore</li>
+                <li>Realtime Database</li>
+                <li>Cloud Messaging</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card h-100">
+              <div class="skill-icon">
+                <i class="bi bi-tools"></i>
+              </div>
+              <h4>Tools</h4>
+              <ul>
+                <li>Android Studio</li>
+                <li>Git and GitHub</li>
+                <li>Gradle</li>
+                <li>Postman</li>
+                <li>Debugging tools</li>
+                <li>Version control workflow</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-marquee mt-5">
+          <span>Kotlin</span>
+          <span>Java</span>
+          <span>Android Studio</span>
+          <span>Jetpack Compose</span>
+          <span>MVVM</span>
+          <span>Room</span>
+          <span>Retrofit</span>
+          <span>OkHttp</span>
+          <span>Firebase</span>
+          <span>GitHub</span>
+          <span>Material Design</span>
+          <span>Python</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-4 mb-5">
+          <div>
+            <div class="section-label">Projects</div>
+            <h2 class="section-title">
+              Portfolio project categories you can showcase from GitHub.
+            </h2>
+          </div>
+
+          <a
+            href="https://github.com/Dev-moe-kyawaung/?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-light"
+          >
+            <i class="bi bi-github me-2"></i>
+            View All Repositories
+          </a>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-icon">
+                <i class="bi bi-cloud-sun-fill"></i>
+              </div>
+              <h4>API-Driven Apps</h4>
+              <p>
+                Weather, news, or content applications that consume REST APIs using Retrofit and OkHttp,
+                with structured error handling, pagination, loading states, and caching strategies.
+              </p>
+              <div class="project-tags">
+                <span>Retrofit</span>
+                <span>OkHttp</span>
+                <span>JSON</span>
+                <span>API</span>
+              </div>
+              <a
+                href="https://github.com/Dev-moe-kyawaung/?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Explore repositories <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-icon">
+                <i class="bi bi-database-check"></i>
+              </div>
+              <h4>Offline-First Apps</h4>
+              <p>
+                To-do, notes, habit tracker, or productivity apps using Room database, repository pattern,
+                MVVM architecture, local caching, and clean separation of concerns.
+              </p>
+              <div class="project-tags">
+                <span>Room</span>
+                <span>MVVM</span>
+                <span>Repository</span>
+                <span>Local DB</span>
+              </div>
+              <a
+                href="https://github.com/Dev-moe-kyawaung/?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Explore repositories <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-icon">
+                <i class="bi bi-fire"></i>
+              </div>
+              <h4>Firebase Apps</h4>
+              <p>
+                Cloud-connected Android applications with Firebase Authentication, Firestore or Realtime Database,
+                and push notifications using Firebase Cloud Messaging.
+              </p>
+              <div class="project-tags">
+                <span>Firebase</span>
+                <span>Auth</span>
+                <span>Firestore</span>
+                <span>FCM</span>
+              </div>
+              <a
+                href="https://github.com/Dev-moe-kyawaung/?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Explore repositories <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-icon">
+                <i class="bi bi-qr-code-scan"></i>
+              </div>
+              <h4>Utility & Device Feature Apps</h4>
+              <p>
+                Practical mobile tools using camera, QR or barcode scanning, location, maps, sensors,
+                permissions, and Android device capabilities.
+              </p>
+              <div class="project-tags">
+                <span>Camera</span>
+                <span>QR</span>
+                <span>Maps</span>
+                <span>Sensors</span>
+              </div>
+              <a
+                href="https://github.com/Dev-moe-kyawaung/?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Explore repositories <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-icon">
+                <i class="bi bi-palette-fill"></i>
+              </div>
+              <h4>UI/UX-Focused Demos</h4>
+              <p>
+                Polished Android UI demos focused on Material Design, animations, dark mode,
+                responsive layouts, accessibility, and smooth user experiences.
+              </p>
+              <div class="project-tags">
+                <span>Material 3</span>
+                <span>Compose</span>
+                <span>Dark Mode</span>
+                <span>UX</span>
+              </div>
+              <a
+                href="https://github.com/Dev-moe-kyawaung/?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Explore repositories <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-icon">
+                <i class="bi bi-eye-fill"></i>
+              </div>
+              <h4>Computer Vision Experiments</h4>
+              <p>
+                Python-based experiments and tools related to image processing, computer vision,
+                automation, recognition workflows, and mobile-connected vision features.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>OpenCV</span>
+                <span>Vision</span>
+                <span>Tools</span>
+              </div>
+              <a
+                href="https://github.com/Dev-moe-kyawaung/?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Explore repositories <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Focus / Learning -->
+    <section id="learning" class="section-padding alt-section">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="section-label">Current Focus</div>
+            <h2 class="section-title">
+              Continuously improving through modern Android architecture, testing, and performance.
+            </h2>
+            <p class="section-text">
+              I regularly complete professional certification courses and self-driven projects to strengthen my
+              development foundation and bring better security, performance, and growth thinking into mobile app development.
+            </p>
+
+            <div class="focus-list mt-4">
+              <div class="focus-item">
+                <span>01</span>
+                <div>
+                  <h5>Jetpack Compose</h5>
+                  <p>Deepening modern declarative UI skills for clean, scalable, and polished Android interfaces.</p>
+                </div>
+              </div>
+
+              <div class="focus-item">
+                <span>02</span>
+                <div>
+                  <h5>Modern Android Architecture</h5>
+                  <p>Improving MVVM, clean architecture, repository pattern, use cases, and maintainable app structure.</p>
+                </div>
+              </div>
+
+              <div class="focus-item">
+                <span>03</span>
+                <div>
+                  <h5>Performance and Offline-First Patterns</h5>
+                  <p>Building faster apps with local caching, better state handling, optimized database access, and smooth UX.</p>
+                </div>
+              </div>
+
+              <div class="focus-item">
+                <span>04</span>
+                <div>
+                  <h5>Testing and Production Quality</h5>
+                  <p>Improving unit tests, UI tests, debugging workflows, and app reliability before release.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="learning-panel">
+              <h4 class="mb-4">Professional Learning Areas</h4>
+
+              <div class="progress-block">
+                <div class="d-flex justify-content-between">
+                  <span>Android Development</span>
+                  <strong>95%</strong>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 95%"></div>
+                </div>
+              </div>
+
+              <div class="progress-block">
+                <div class="d-flex justify-content-between">
+                  <span>Kotlin / Java</span>
+                  <strong>90%</strong>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+              </div>
+
+              <div class="progress-block">
+                <div class="d-flex justify-content-between">
+                  <span>Firebase Integration</span>
+                  <strong>85%</strong>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+              </div>
+
+              <div class="progress-block">
+                <div class="d-flex justify-content-between">
+                  <span>Computer Vision with Python</span>
+                  <strong>75%</strong>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 75%"></div>
+                </div>
+              </div>
+
+              <div class="progress-block">
+                <div class="d-flex justify-content-between">
+                  <span>Cybersecurity Basics</span>
+                  <strong>70%</strong>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 70%"></div>
+                </div>
+              </div>
+
+              <div class="progress-block">
+                <div class="d-flex justify-content-between">
+                  <span>Web Technologies & Digital Growth</span>
+                  <strong>70%</strong>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 70%"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GitHub CTA -->
+    <section class="github-cta">
+      <div class="container">
+        <div class="github-card">
+          <div>
+            <div class="section-label">GitHub Portfolio</div>
+            <h2>Explore my code, project structure, and Android app samples.</h2>
+            <p>
+              Visit my GitHub profile to see repositories, pinned projects, source code examples, and continuous learning work.
+            </p>
+          </div>
+
+          <a
+            href="https://github.com/Dev-moe-kyawaung/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-gradient btn-lg"
+          >
+            <i class="bi bi-github me-2"></i>
+            Open GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-label mx-auto">Contact</div>
+          <h2 class="section-title mx-auto">
+            Let’s build something useful, clean, and professional.
+          </h2>
+          <p class="section-text mx-auto text-center">
+            If you are interested in Android development, project collaboration, app improvement, or technical discussion,
+            feel free to contact me.
+          </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <a href="mailto:moekyawaung@sent.com" class="contact-card">
+              <i class="bi bi-envelope-fill"></i>
+              <h5>Email</h5>
+              <p>moekyawaung@sent.com</p>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a href="tel:09889000889" class="contact-card">
+              <i class="bi bi-telephone-fill"></i>
+              <h5>Phone</h5>
+              <p>09889000889</p>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://github.com/Dev-moe-kyawaung/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+            >
+              <i class="bi bi-github"></i>
+              <h5>GitHub</h5>
+              <p>Dev-moe-kyawaung</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center g-3">
+        <div class="col-md-6">
+          <p class="mb-0">
+            © <span id="year"></span> Moe Kyaw Aung. All rights reserved.
+          </p>
+        </div>
+
+        <div class="col-md-6 text-md-end">
+          <a href="#home">Back to top</a>
+          <a href="https://github.com/Dev-moe-kyawaung/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:moekyawaung@sent.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
